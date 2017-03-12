@@ -12,6 +12,8 @@
 		1536B6C51E70EAFC0096E636 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1536B6C31E70EAFC0096E636 /* Main.storyboard */; };
 		1536B6C71E70EAFC0096E636 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1536B6C61E70EAFC0096E636 /* Assets.xcassets */; };
 		1536B6CA1E70EAFC0096E636 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1536B6C81E70EAFC0096E636 /* LaunchScreen.storyboard */; };
+		1536B6D31E70EC610096E636 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1536B6D21E70EC610096E636 /* MapKit.framework */; };
+		1578823C1E759B6D00AD3B71 /* VisitedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1578823B1E759B6D00AD3B71 /* VisitedPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		1536B6C61E70EAFC0096E636 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1536B6C91E70EAFC0096E636 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1536B6CB1E70EAFC0096E636 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1536B6D21E70EC610096E636 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		1578823B1E759B6D00AD3B71 /* VisitedPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisitedPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1536B6D31E70EC610096E636 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				1536B6BE1E70EAFC0096E636 /* TrackMySelf */,
 				1536B6BD1E70EAFC0096E636 /* Products */,
+				1536B6D11E70EC610096E636 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +62,21 @@
 			children = (
 				1536B6BF1E70EAFC0096E636 /* AppDelegate.swift */,
 				1536B6C11E70EAFC0096E636 /* ViewController.swift */,
+				1578823B1E759B6D00AD3B71 /* VisitedPoint.swift */,
 				1536B6C31E70EAFC0096E636 /* Main.storyboard */,
 				1536B6C61E70EAFC0096E636 /* Assets.xcassets */,
 				1536B6C81E70EAFC0096E636 /* LaunchScreen.storyboard */,
 				1536B6CB1E70EAFC0096E636 /* Info.plist */,
 			);
 			path = TrackMySelf;
+			sourceTree = "<group>";
+		};
+		1536B6D11E70EC610096E636 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1536B6D21E70EC610096E636 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1536B6C21E70EAFC0096E636 /* ViewController.swift in Sources */,
+				1578823C1E759B6D00AD3B71 /* VisitedPoint.swift in Sources */,
 				1536B6C01E70EAFC0096E636 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +318,7 @@
 				1536B6D01E70EAFC0096E636 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
