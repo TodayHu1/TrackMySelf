@@ -1,17 +1,17 @@
-# Time Travel Clock
+# TrackMySelf
 
-This is a basic XCode Project written in Swift and is meant to get myself familiar with using tabbed application, time and date functions, string manipulation.
-It also attempts to show how it's done in Swift 2 & Swift 3.
+XCode Project written in Swift introducing more advanced elements such as MKMapView, MKCoordinatePoint,
+UIAlertController and UIAlertAction to track and store user's location.
 
-![Time Travel Clock](https://cloud.githubusercontent.com/assets/10534896/23732049/c39485b8-0468-11e7-8f21-fae26a128d66.png)
-
+![Track My Self](https://cloud.githubusercontent.com/assets/10534896/23834591/fb24fffe-0750-11e7-871c-bf64873943b1.png)
 # Learning Outcomes
 
-- Stack layouts, layout constraints
-- Tabbed applications
-- Multiple button and actions by tags
-- Time, dates functions and string manipulation
-- Enums
+- Permissions and capabilities in Maps
+- Location handling and updating
+- Navigation Bars and Buttons
+- Guard statement
+- Alert controllers and actions
+- User Defaults saving and loading
 
 ## Other projects
 
